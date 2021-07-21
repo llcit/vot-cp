@@ -3,7 +3,7 @@ VOT-CP (VOT coding and predictions)
 =======
 
 Ernesto R. Gutiérrez Topete (ernesto.gutierrez@berkeley.edu), **lead developer**.\
-Richard Medina (rmedina@hawaii.edu), **project lead**.
+Richard Medina, **project lead**.
 
 
 ## Description
