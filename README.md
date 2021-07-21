@@ -291,7 +291,7 @@ This execution identifies the second channel in the audio file as the channel to
 \
 **6. Single-pair processing with distinct channels:**
 ```
-calculateVOT("S01_map-task.wav", "S01_map-task.TextGrid", distinctChannels=True)
+calculateVOT("S01_map-task.wav", "S01_map-task.TextGrid", distinctChannels = True)
 ```
 
 This execution tells VOT-CP that there are multiple channels present in the audio file and multiple speakers represented in the TextGrid. The program will continue by linking the first channel to the first pair of phone-word tiers, the second channel to the second pair of phone-word tiers, and so on. 
