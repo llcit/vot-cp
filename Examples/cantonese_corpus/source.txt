@@ -1,0 +1,3 @@
+SpiCE: Speech in Cantonese and English
+
+https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP2/MJOXP3
