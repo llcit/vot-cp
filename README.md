@@ -374,7 +374,7 @@ For this execution, the program will only look for the phone labels 'k', and 'kw
 \
 **3. Single-pair processing with a specific output directory name:**
 ```
-python calculateVOT.py --wav S01_map-task.wav --TextGrid S01_map-task.TextGrid --outputDirectory "vot-predictions"
+python calculateVOT.py --wav S01_map-task.wav --TextGrid S01_map-task.TextGrid --outputDirectory vot-predictions
 ```
 
 This execution provides the name "vot-predictions" for the name of the output directory, as opposed to using the default "output" name.
@@ -408,7 +408,7 @@ Note that if `distinctChannels` is set to `True` and there isn't an equal number
 \
 **7. Single-pair processing with newly trained model:**
 ```
-python calculateVOT.py --wav S01_map-task.wav --TextGrid S01_map-task.TextGrid --trainedModel "myVOTmodel.model"
+python calculateVOT.py --wav S01_map-task.wav --TextGrid S01_map-task.TextGrid --trainedModel myVOTmodel.model
 ```
 
 For this execution, VOT-CP will use the model that you have trained (using AutoVOT's program) for your data and indicated in the command line. Refer to AutoVOT's documentation for more information on how to train your own model.
@@ -416,7 +416,7 @@ For this execution, VOT-CP will use the model that you have trained (using AutoV
 \
 **8. Batch processing with all default settings:**
 ```
-python calculateVOT.py --inputDirectory "input_corpus"
+python calculateVOT.py --inputDirectory input_corpus
 ```
 
 For this execution, the program will iterate through all files in the directory `input_corpus/` in order to begin pairing files and processing them. The output files will be returned to the `output/` directory. 
