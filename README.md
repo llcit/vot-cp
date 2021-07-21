@@ -69,7 +69,7 @@ Open a Terminal window and navigate to the directory (ie, folder) where you woul
   $ git clone https://github.com/llcit/vot-cp
   ```
 
-After installing the program, navigate to the directory where the software is installed and run the following command in your terminal window to install all dependencies: 
+After installing the program, navigate to the directory where the software is installed and run the following command in your Terminal window to install all dependencies: 
 
   ```
   $ pip install -r "requirements.txt"
@@ -220,7 +220,7 @@ The optional arguments for single-pair processing and batch processing are:
 
 ## Tutorial
 
-VOT-CP is a Python library that can be used within another Python script or directly from your terminal window. Both methods support single-pair and batch processing. Below is a brief tutorial for using this program from another Python script, followed by another tutorial that performs the same actions directly from the command line.
+VOT-CP is a Python library that can be used within another Python script or directly from your Terminal window. Both methods support single-pair and batch processing. Below is a brief tutorial for using this program from another Python script, followed by another tutorial that performs the same actions directly from the command line.
 
 ### Python script usage
 
@@ -318,7 +318,7 @@ Note that you can adjust the rest of the parameters for `calculateVOTBatch` just
 
 ### Command-line usage
 
-The following code blocks exemplify how to use the VOT-CP program, under different conditions, directly from your terminal window.
+The following code blocks exemplify how to use the VOT-CP program, under different conditions, directly from your Terminal window.
 
 Below are the arguments accepted through this mode. The two dashes plus the lowercase word is a mandatory keyword indicating the argument, and the uppercase word is to be replaced by the argument you are passing for processing.
 
@@ -335,7 +335,7 @@ Below are the arguments accepted through this mode. The two dashes plus the lowe
 [--trainedModel TRAINEDMODEL]
 ```
 
-Although all arguments are marked as optional, the program will automatically engage single-pair processing mode if a wav file and a TextGrid file are *both* submitted for processing. If these arguments are left blank (or at least one) but instead an inputDirectory path is submitted, the program will automatically engage batch processing mode. Note that if all three arguments are submitted (wav, TextGrid, and inputDirectory), the program will only engage single-pair processing, ignoring the inputDirectory. For more help with these and other optional arguments, type 'calculateVOT.py -h' in your terminal.
+Although all arguments are marked as optional, the program will automatically engage single-pair processing mode if a wav file and a TextGrid file are *both* submitted for processing. If these arguments are left blank (or at least one) but instead an inputDirectory path is submitted, the program will automatically engage batch processing mode. Note that if all three arguments are submitted (wav, TextGrid, and inputDirectory), the program will only engage single-pair processing, ignoring the inputDirectory. For more help with these and other optional arguments, type 'calculateVOT.py -h' in your Terminal.
 
 To use command-line processing, open a Terminal window and navigate to the directory where you have stored the VOT-CP program.
 
@@ -427,7 +427,7 @@ Note that you can adjust the rest of the parameters just as you would with singl
 
 VOT-CP is a general purpose program and doesn't need to be cited, but if you feel inclined, it can be cited in this way:
 
-Gutierrez-Topete, E. & Medina, R.(2021). VOT-CP: A Python wrapper for autoVOT [Computer program]. Center for Language & Technology. Retrieved from https://github.com/llcit/vot-cp.
+Gutiérrez Topete, E. & Medina, R.(2021). VOT-CP: A Python wrapper for autoVOT [Computer program]. Center for Language & Technology. Retrieved from https://github.com/llcit/vot-cp.
 
 However, if you use this program to analyze data that are presented at conferences or published, it is recommended that you [cite the AutoVOT program](https://github.com/mlml/autovot/blob/master/README.md#citing).
 
