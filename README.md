@@ -1,5 +1,5 @@
 
-VOT-CP (VOT coding and predictions)
+VOT-CP: A Python wrapper for autoVOT
 =======
 
 Ernesto R. Gutiérrez Topete (ernesto.gutierrez@berkeley.edu), **lead developer**.\
@@ -8,7 +8,7 @@ Richard Medina, **project lead**.
 
 ## Description
 
-VOT-CP is a Python program that allows for the automatic codification of phonetically aligned data in order to obtain voice onset time (VOT) predictions. This program makes use of [AutoVOT](https://github.com/mlml/autovot)'s model for generating the VOT calculations. When provided with a TextGrid that contains a word and phone tier, the program will identify all word-initial stop consonants of interest. VOT-CP will then generate and populate a new tier that can be used by AutoVOT to find the burst and onset of voicing for all selected segments. 
+VOT-CP (VOT coding and predictions) is a Python program that allows for the automatic codification of phonetically aligned data in order to obtain voice onset time (VOT) predictions. This program makes use of [AutoVOT](https://github.com/mlml/autovot)'s model for generating the VOT calculations. When provided with a TextGrid that contains a word and phone tier, the program will identify all word-initial stop consonants of interest. VOT-CP will then generate and populate a new tier that can be used by AutoVOT to find the burst and onset of voicing for all selected segments. 
 
 The program takes in:
 
