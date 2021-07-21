@@ -63,10 +63,10 @@ In order to use this program, you will need the following installed in your mach
 
 _VOT-CP is available from Github_.
 
-Open a Terminal window and navigate to the directory (ie, folder) where you would like to install the program. Then run the following command: (RM will add this [final address below])
+Open a Terminal window and navigate to the directory (ie, folder) where you would like to install the program. Then run the following command: 
 
   ```
-  $ git clone https://github.com/...
+  $ git clone https://github.com/llcit/vot-cp
   ```
 
 After installing the program, navigate to the directory where the software is installed and run the following command in your terminal window to install all dependencies: 
@@ -427,7 +427,7 @@ Note that you can adjust the rest of the parameters just as you would with singl
 
 VOT-CP is a general purpose program and doesn't need to be cited, but if you feel inclined, it can be cited in this way:
 
-...(?) RM: I'll add this after we move the repo to its permanent location.
+Gutierrez-Topete, E. & Medina, R.(2021). VOT-CP: A Python wrapper for autoVOT [Computer program]. Center for Language & Technology. Retrieved from https://github.com/llcit/vot-cp.
 
 However, if you use this program to analyze data that are presented at conferences or published, it is recommended that you [cite the AutoVOT program](https://github.com/mlml/autovot/blob/master/README.md#citing).
 
@@ -465,4 +465,4 @@ Finally, I want to thank all the researchers (listed below in alphabetical order
 
 ## License
 
-*add license* RM: I'll add this later, but it will probably be MIT (https://choosealicense.com/licenses/mit/)
+VOT-CP is licensed under an MIT License by the Center for Language & Technology. Please see [LICENSE](https://github.com/llcit/vot-cp/blob/main/LICENSE).
