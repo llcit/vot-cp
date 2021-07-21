@@ -1,4 +1,4 @@
 Examples
 =======
 
-Download and save these files in the directory where you have saved the VOT-CP program. Then run these tests to ensure that your program is running as expected.
+The `Examples.py ` file will access these corpora to test the functions, allowing you to see if the program is performing as it should in your machine.
