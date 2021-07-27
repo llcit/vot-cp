@@ -296,7 +296,7 @@ calculateVOT("S01_map-task.wav", "S01_map-task.TextGrid", distinctChannels = Tru
 
 This execution tells VOT-CP that there are multiple channels present in the audio file and multiple speakers represented in the TextGrid. The program will continue by linking the first channel to the first pair of phone-word tiers, the second channel to the second pair of phone-word tiers, and so on. 
 
-Note that if `distinctChannels` is set to `True` and there isn't an equal number of channels and tier pairs (eg, two channels and one tier pair), the program will terminate immediately.
+Note that if `distinctChannels` is set to `True` and there isn't an equal number of channels and tier pairs (eg, two channels and one tier pair), the program will terminate before completing the process.
 
 \
 **7. Single-pair processing with newly trained model:**
